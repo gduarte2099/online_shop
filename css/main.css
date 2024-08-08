@@ -1,0 +1,253 @@
+/*SECCION BUSQUEDA*/
+/*
+.fondo {
+    background-color: #6c757d;
+    background-image: url('../img/fondo6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+}
+
+.imagen {
+    width: 35px;
+    height: 35px;
+}
+
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+.busqueda_responsive {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .busqueda_responsive {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .busqueda {
+        display: none !important;
+    }
+}
+
+
+/*SECCION NAVEGACION*/
+
+.navbar-collapse ul ul {
+    display: none;
+    position: initial;
+    z-index: 100000;
+}
+
+.navbar-nav ul {
+    background-color: white;
+    list-style: none;
+    padding: 0 8px 0 8px;
+}
+
+.navbar-collapse ul ul {
+    display: none;
+}
+
+.nav-item:hover {
+    background-color: #90caf9;
+    /*background-color: #6c757d;*/
+}
+
+.navbar-collapse a:hover {
+    color: blue;
+}
+
+/*las categorias*/
+.nav-link {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+/*las opciones en las categorias*/
+
+/*esto hace el fondo del ul transparente
+.nav-item ul {
+    background-color: rgb(255, 255, 255, 0.1);
+}*/
+
+.nav-item ul a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    /*background-color: white;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.nav-item ul a:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav-item ul a {
+        font-size: 15px;
+    }
+
+    .nav-item ul a:hover {
+        color: darkblue;
+    }
+}
+
+.navbar-collapse li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 40px;
+}
+
+.nav-item a {
+    font-size: 15px;
+}
+
+
+/*SECCION CARRUSELL*/
+
+.img-carousel {
+    height: 480px;
+    width: 100%;
+}
+
+/*color del icono del carrusel*/
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000ff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230000ff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*.carousel-item img {
+    object-fit: contain;
+}*/
+
+
+/*SECCION DESTACADOS Y LO MAS VENDIDO(CARDS)*/
+
+.img-card {
+    width: 100%;
+}
+
+.img-card {
+    width: 50%;
+}
+
+
+.card {
+    border-color: rgba(0, 0, 255, 0.288);
+    box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.288);
+}
+
+
+/*SECCION MODAL(LOGIN)*/
+
+.modal-body input[type="text"],
+.modal-body input[type="password"] {
+    background: transparent;
+    color: darkgray;
+    outline: none;
+}
+
+.modal-footer input[type="submit"] {
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+
+.login-question a {
+    text-decoration: none;
+    color: lightblue;
+    /*color: rgba(0, 0, 0, 0.733);*/
+}
+
+.login-question a:hover {
+    color: white;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black
+        /*color: rgba(0, 0, 0, 0.733);*/
+}
+
+.contact a:hover {
+    color: blue;
+}
+
+
+/*SECCION FORMAS DE PAGO*/
+
+.imagen-pago {
+    width: 5%;
+    aspect-ratio: 3/2; /*misma altura dependiendo de su grosor*/
+    object-fit: contain; /*misma altura para mantenerse responsive*/
+    /*mix-blend-mode: color-burn; quitar fondo blanco pero elimina parte de los colores tambien*/
+
+    /*width: 70px;
+    height: 50px;*/
+}
+
+
+/*SECCION PRODUCTO*/
+
+.img-producto {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.btn-comprar {
+    padding-top: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .btn-comprar {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h5 {
+        font-size: 15px;
+    }
+}
+
+
+/*.zoom:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.zoom img {
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+}*/
+
+.title {
+    overflow: hidden;
+    position: relative;
+}
+
+.title:hover {
+    transition: transform .5s ease-out;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Tienda de Articulos Electronicos</title>
+</head>
+
+<body>
+
+    <!--SECCION BUSQUEDA-->
+
+    <section class="fondo py-3">
+        <div class=" container">
+            <div class="row">
+                <div class="container d-flex align-items-center">
+                    <div class="col-md-2">
+                        <a href="../index.html"> <img class="logo" src="../img/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-6 col-md-8 d-flex busqueda">
+                        <input class="form-control form-control-md" type="search " placeholder="Qué estás buscando?">
+                        <button type="submit " class="btn btn-secondary "> <i class=" fas fa-search "></i> </button>
+                    </div>
+                    <div class="col-md-2 ">
+                        <a href=""> <img class="imagen pr-1" src="../img/cart.png " alt=" "></a>
+                        <a href="" data-toggle="modal" data-target="#exampleModalCenter"> <img class="imagen " src="../img/login.png " alt=" "></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 busqueda_responsive">
+                <input class=" form-control form-control-md " type="search " placeholder="Qué estás buscando? ">
+                <button type="submit " class="btn btn-secondary "> <i class=" fas fa-search "></i> </button>
+            </div>
+        </div>
+    </section>
+
+    <!--MODAL LOGIN-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content fondo text-white">
+            <div class="modal-header bg-dark">
+                <h5 class="modal-title" id="exampleModalLongTitle">Introduzca sus datos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="container bg-dark">
+                <div class="modal-body">
+                    <form action="">
+                        <label for="username" class="my-3">UserName</label>
+                        <input class="form-control" type="text" placeholder="Nombre de Usuario">
+                        <label for="password" class="my-3">Password</label>
+                        <input class="form-control" type="password" placeholder="Contraseña">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-primary btn-lg" data-dismiss="modal"
+                        value="Iniciar Sesion">
+                </div>
+                <div class="login-question py-3">
+                    <a href="">Ha olvidado su contraseña?</a>
+                    <br>
+                    <a href="">No tiene una cuenta?</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--SECCION NAVEGACION-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto ">
+                <li class="nav-item">
+                    <a class="nav-link " href="# "><b>COMPUTACION</b></a>
+                    <ul>
+                        <li><a href="../notebooks/notebooks.html ">Notebooks</a></li>
+                        <li><a href="../tablets/tablets.html">Tablets</a></li>
+                        <li><a href="../PCs/pcs.html">PCs</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# "><b> TELEFONIA</b></a>
+                    <ul>
+                        <li><a href="../smartphones/smartphones.html">Smartphones</a></li>
+                        <li><a href="smatwatch.html">Smartwatch</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# "><b>TV-AUDIO-VIDEO</b> </a>
+                    <ul>
+                        <li><a href="../TVs/tvs.html">Televisores</a></li>
+                        <li><a href="../parlantes/parlantes.html">Parlantes</a></li>
+                        <li><a href="../CAM/cams.html">Cámaras</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# "><b>ACCESORIOS</b> </a>
+                    <ul>
+                        <li><a href="../mouse/mouses.html ">Mouse</a></li>
+                        <li><a href="../teclados/teclados.html">Teclados</a></li>
+                        <li><a href="../cargadores/cargadores.html">Cargadores</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--SECCION PRODUCTO-->
+    <section class="py-3 bg-light">
+        <div class="container">
+            <p>NombredelSitio/TELEFONÍA/Smartwatch</p>
+            <hr>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="../img/smartwatch/applewatch2.jpg" alt="" class="img-producto">
+                </div>
+                <div class="col-md-7 my-4">
+                    <p style="color: darkblue">Apple</p>
+                    <hr>
+                    <h5>APPLE WATCH SERIE 4 40MM DORADO MU682BZ/A GPS A1977 - HWTAPP505</h5>
+                    <h3>Gs 3.570.000</h3>
+                    <div class="btn-comprar">
+                        <hr>
+                        <a class="btn btn-success btn-lg" href="" style="width:100%;">COMPRAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="py-5">
+                <h6>DESCRIPCION</h6>
+                <hr>
+                <p>
+                    Pantalla táctil retina OLED LTPO
+                    <br> Corona digital con retroalimentación háptica.
+                    <br>Genera tu propio ECG
+                    <br>Detección de caídas + emergencia SOS
+                    <br>Monitor de ritmo cardiaco con notificaciones
+                    <br>Llamadas manos libres + integración Siri
+                    <br>GPS incorporado, GLONASS, Galileo y QZSS
+                    <br>Wi-Fi y tecnología inalámbrica Bluetooth
+                    <br>Hasta 18 horas de duración de la batería
+                    <br>Resistente al agua hasta 164' </p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--FOOTER-->
+    <footer class="mt-5 pt-4 fondo">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-9 ">
+                    <p>No todas las características están disponibles en todas las ediciones o versiones de Windows. Los sistemas pueden requerir hardware, controladores y / o software actualizados y / o adquiridos por separado para aprovechar al máximo
+                        la funcionalidad de Windows. Ver
+                        <a style="text-decoration: none; color: darkslategray; " href="http://www.microsoft.com " target="_blank ">www.microsoft.com</a>
+                    </p>
+                    <hr>
+                    <p>
+                        Tenga en cuenta: El color y aspecto del producto y la sensación puede variar de la representación visual en el sitio web. Si bien se realizan todos los esfuerzos para verificar los precios, las especificaciones del producto y otros errores, de vez en
+                        cuando ocurren errores inadvertidos y HP se reserva el derecho de rechazar los pedidos que surjan de dichos errores. Para pen drives, comuníquese con los respectivos fabricantes para cualquier consulta de servicio.
+                    </p>
+                </div>
+
+                <div class="col-md-3 ">
+                    <img class="logo " src="../img/logo.png" alt=" ">
+                    <br><br>
+                    <div class="contact">
+                        <a href=" ">
+                            <h6>Quienes somos?</h6>
+                        </a>
+                        <a href=" ">
+                            <h6>Por qué comprar en NOMBREDELSITIO?</h6>
+                        </a>
+                        <a href=" ">
+                            <h6>Trabaja con Nosotros</h6>
+                        </a>
+                    </div>
+
+                    <div class="text-center pt-3">
+                        <img class="imagen " src="../img/lock.png " alt=" ">
+                        <h6>COMPRA 100% SEGURA</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 bg-dark text-center text-secondary ">
+            <h6>NOMBREDELSITIO&copy;2019</h6>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
