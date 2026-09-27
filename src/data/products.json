@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "code": "TEC001",
+    "name": "Teclado Apple Magic Wireless Inglés",
+    "brand": "Apple",
+    "category": "teclados",
+    "price": 800000,
+    "image": "/img/teclados/teclado1.jpg",
+    "specs": [
+      "Conectividad inalámbrica Bluetooth",
+      "Idioma: inglés",
+      "Sin teclado numérico",
+      "Compatible con Mac",
+      "Peso: 231 g",
+      "Alimentación: batería"
+    ]
+  },
+  {
+    "id": 2,
+    "code": "TEC002",
+    "name": "Teclado Maxell Wireless Touchpad",
+    "brand": "Maxell",
+    "category": "teclados",
+    "price": 250000,
+    "image": "/img/teclados/teclado2.jpg",
+    "specs": [
+      "Teclado táctil inalámbrico",
+      "Wireless 2.4 GHz",
+      "Alcance de hasta 10 metros",
+      "Micro receptor USB",
+      "Instalación plug & play"
+    ]
+  },
+  {
+    "id": 3,
+    "code": "TEC003",
+    "name": "Teclado Logitech Inalámbrico para PC",
+    "brand": "Logitech",
+    "category": "teclados",
+    "price": 350000,
+    "image": "/img/teclados/teclado3.png",
+    "specs": [
+      "Teclas de silencio y volumen",
+      "Interruptor de encendido",
+      "2 pilas AA, hasta 18 meses",
+      "Hasta 5 millones de pulsaciones",
+      "Alcance inalámbrico: 10 m"
+    ]
+  },
+  {
+    "id": 4,
+    "code": "TAB004",
+    "name": "Apple iPad 9.7\" 32GB WiFi + Cellular Gold",
+    "brand": "Apple",
+    "category": "tablets",
+    "price": 3600000,
+    "bestseller": true,
+    "image": "/img/tablets/tablet1.jpg",
+    "specs": [
+      "iOS, chip Apple A10 Fusion",
+      "Almacenamiento: 32 GB",
+      "Pantalla IPS 9.7\" (2048 x 1536)",
+      "Wi-Fi 5 y Bluetooth 4.2",
+      "Ranura nano SIM"
+    ]
+  },
+  {
+    "id": 5,
+    "code": "TAB005",
+    "name": "Apple iPad Air 3 10.5\" 64GB",
+    "brand": "Apple",
+    "category": "tablets",
+    "price": 4000000,
+    "image": "/img/tablets/tablet2.jpg",
+    "specs": [
+      "Pantalla Retina",
+      "iOS 12, chip A12 Bionic",
+      "Almacenamiento: 64 GB",
+      "Cámara 8 MP / frontal 7 MP",
+      "Color gris espacial"
+    ]
+  },
+  {
+    "id": 6,
+    "code": "TAB006",
+    "name": "reMarkable Paper Tablet 10.3\"",
+    "brand": "reMarkable",
+    "category": "tablets",
+    "price": 5000000,
+    "image": "/img/tablets/tablet3.png",
+    "specs": [
+      "Pantalla E-Ink 10.3\" (226 dpi)",
+      "8 GB de memoria, 512 MB RAM",
+      "Batería 3000 mAh",
+      "Formatos PDF y ePUB",
+      "Lápiz con 2048 niveles de presión"
+    ]
+  },
+  {
+    "id": 7,
+    "code": "SWT007",
+    "name": "Apple Watch S4 40mm Space Grey",
+    "brand": "Apple",
+    "category": "smartwatch",
+    "price": 3500000,
+    "featured": true,
+    "image": "/img/smartwatch/applewatch1.png",
+    "specs": [
+      "Caja de 40 mm",
+      "Color space grey"
+    ]
+  },
+  {
+    "id": 8,
+    "code": "PAR008",
+    "name": "Parlante JBL Charge 4 Bluetooth Rojo",
+    "brand": "JBL",
+    "category": "parlantes",
+    "price": 1000000,
+    "featured": true,
+    "image": "/img/parlantes/parlante2.jpg",
+    "specs": [
+      "Portátil Bluetooth",
+      "Color rojo"
+    ]
+  },
+  {
+    "id": 9,
+    "code": "TVS009",
+    "name": "Televisor LG LED 49\" Smart Full HD",
+    "brand": "LG",
+    "category": "tvs",
+    "price": 3000000,
+    "featured": true,
+    "image": "/img/tvs/tv2.jpg",
+    "specs": [
+      "49 pulgadas",
+      "Smart TV Full HD",
+      "Modelo 49LJ5500"
+    ]
+  },
+  {
+    "id": 10,
+    "code": "SMT010",
+    "name": "iPhone X 64GB Space Gray",
+    "brand": "Apple",
+    "category": "smartphones",
+    "price": 9500000,
+    "featured": true,
+    "image": "/img/smartphones/iphone1.png",
+    "specs": [
+      "Almacenamiento: 64 GB",
+      "Color space gray"
+    ]
+  },
+  {
+    "id": 11,
+    "code": "NBT011",
+    "name": "Notebook HP 14",
+    "brand": "HP",
+    "category": "notebooks",
+    "price": 3450000,
+    "featured": true,
+    "image": "/img/notebooks/notebook5.png",
+    "specs": [
+      "Pantalla 14\"",
+      "Modelo HNBHPR502"
+    ]
+  },
+  {
+    "id": 12,
+    "code": "SMT012",
+    "name": "Samsung J2 Prime",
+    "brand": "Samsung",
+    "category": "smartphones",
+    "price": 2500000,
+    "bestseller": true,
+    "image": "/img/smartphones/samsung1.jpg",
+    "specs": [
+      "Smartphone Android"
+    ]
+  },
+  {
+    "id": 13,
+    "code": "CAR013",
+    "name": "Cargador Sony USB Tipo-C CP-SC5 5000 mAh",
+    "brand": "Sony",
+    "category": "cargadores",
+    "price": 300000,
+    "bestseller": true,
+    "image": "/img/cargadores/cargador1.jpg",
+    "specs": [
+      "Batería portátil 5000 mAh",
+      "Salida USB Tipo-C"
+    ]
+  },
+  {
+    "id": 14,
+    "code": "NBT014",
+    "name": "Notebook HP Pavilion x360 14\" 6GB / 1TB",
+    "brand": "HP",
+    "category": "notebooks",
+    "price": 5550000,
+    "bestseller": true,
+    "image": "/img/notebooks/notebook2.png",
+    "specs": [
+      "Pantalla táctil 14\" convertible",
+      "6 GB de RAM",
+      "Disco de 1 TB"
+    ]
+  },
+  {
+    "id": 15,
+    "code": "PCS015",
+    "name": "PC GAMER AUR09 RYZEN 5 5500/16GB/256GB/RX580/8GB",
+    "brand": "AUR09",
+    "category": "pcs",
+    "price": 6500000,
+    "bestseller": true,
+    "image": "/img/pcs/pc1.jpg",
+    "specs": [
+      "Procesador AMD Ryzen 5 5500 (6 núcleos / 12 hilos – hasta 4.2GHz)",
+      "Cooler Cooler Master Hyper 212 LED White",
+      "Placa Madre ASUS Prime A520M-R (AM4)",
+      "Tarjeta Gráfica RX 580 8GB Radeon Biostar (White Edition)",
+      "Memoria RAM 16GB DDR4 3200MHz XPG Spectrix RGB",
+      "SSD M.2 NVMe 256GB Adata Legend 710 (súper rápida)",
+      "Fuente Cooler Master 550W 80+ Bronze V2",
+      "Gabinete Cooler Master TD300 Mesh White (excelente flujo de aire)"
+    ]
+  },
+  {
+    "id": 16,
+    "code": "MOU016",
+    "name": "MOUSE LOGITECH 910-005794 G203 GAMING BLANCO RT050194",
+    "brand": "Logitech",
+    "category": "mouse",
+    "price": 150000,
+    "image": "/img/mouse/mouse1.jpg",
+    "specs": [
+      "Sensor óptico con resolución ajustable hasta 8.000 DPI",
+      "Iluminación RGB personalizable con hasta 16.8 millones de colores",
+      "6 botones programables para atajos y comandos",
+      "Diseño cómodo y compacto, apto para largas sesiones de uso",
+      "Memoria interna para guardar configuraciones",
+      "Compatible con Logitech G HUB"
+    ]
+  },
+  {
+    "id": 17,
+    "code": "CAM017",
+    "name": "CAMARA CANON EOS R50 KIT RF-S 18-45 MM/ RF-S 55-210MM 1GTA.",
+    "brand": "Canon",
+    "category": "camaras",
+    "price": 8000000,
+    "image": "/img/camaras/cam1.jpg",
+    "specs": [
+      "Pantalla: Táctil LCD de 3",
+      "Tipo de sensor: CMOS de 24.2MP",
+      "Conectividad: Wifi y Bluetooth",
+      "Grabación de video: 4K UHD, Full HD",
+      "Incluye: Lente 18-45mm f/4.5-6.3, Lente 55-210mm f/5-7.1 IS STM"
+    ]
+  }
+]
